@@ -4,14 +4,16 @@ import Button from '../components/Button'
 
 function Hero() {
     return (
-        <div className='max-w-[1200px]  m-auto min-h-[calc(100vh-100px)]'>
-            <div className="w-full pt-12 h-[calc(100vh-100px-150px)] bg-[url('/background.jpg')] bg-cover rounded-3xl bg-no-repeat">
+        <div className='container px-4  m-auto min-h-[calc(100vh-100px)]'>
+            
+            <div className="w-full pt-12 min-h-[calc(100vh-100px-150px)] bg-[url('/background.jpg')] bg-cover rounded-3xl bg-no-repeat pb-[120px]">
                 <h1 className='font-medium text-6xl text-center leading-[75px] text-white'>
                     Explore the whole world<br /> and enjoy the beauty
                 </h1>
                 <p className='text-white mt-8 text-center text-xl'>Find and write about your experiences around the world.</p>
             </div>
-            <div className='mx-8 bg-white px-4 py-8 h-auto -my-[120px] rounded-3xl shadow-lg'>
+
+            <div className='mx-8 bg-white px-4 py-8 h-auto -mt-[100px] rounded-3xl shadow-lg'>
 
                 <div className='flex justify-between items-center text-black/60'>
                     <ul className='list-none py-4'>
@@ -24,7 +26,7 @@ function Hero() {
                 </div>
                 <hr />
 
-                <div className='grid grid-cols-5 gap-8 text-black/60'>
+                <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-8 text-black/60'>
                     <div className='pt-4'>
                         <p>Destrination</p>
                         <div className='flex gap-2 items-center bg-[#f4f4f4] py-2 mt-2 rounded-lg'>

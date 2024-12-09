@@ -3,7 +3,7 @@ import Button from '../components/Button'
 
 function Tickets() {
     return (
-        <div className='max-w-[1200px] m-auto mt-20'>
+        <div className='container px-4 m-auto mt-20'>
             <div className='flex justify-between items-center'>
                 <h4 className='text-2xl font-semibold'>Book tickets and go now!</h4>
                 <Button title={"Book now"} />

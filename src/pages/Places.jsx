@@ -4,7 +4,7 @@ import { places } from '../assets/data'
 
 function Places() {
     return (
-        <div className='max-w-[1200px] m-auto mt-20'>
+        <div className='container px-4 m-auto mt-20'>
             <div className='grid grid-cols-2'>
                 <div>
                     <h1 className='text-5xl font-semibold'>Popular places</h1>
@@ -18,7 +18,7 @@ function Places() {
                 </div>
             </div>
 
-            <div className='grid grid-cols-4 gap-4 mt-10'>
+            <div className='grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-8 mt-10'>
                 {
                     places.map((item, index) => (
                         <PlaceCard title={item.title} location={item.location} discount={item.discount} img={item.img} key={index}/>

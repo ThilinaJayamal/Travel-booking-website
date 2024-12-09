@@ -3,8 +3,8 @@ import { Icons } from '../assets/data'
 
 function Footer() {
     return (
-        <div className='max-w-[1200px] m-auto py-8'>
-            <div className="grid grid-cols-[2fr_1fr_1fr_1fr_2fr] gap-8">
+        <div className='container p-4 m-auto py-8'>
+            <div className="grid grid-cols-[1fr_1fr] lg:grid-cols-[2fr_1fr_1fr_1fr] xl:grid-cols-[2fr_1fr_1fr_1fr_2fr] gap-8">
 
                 <div className='flex flex-col gap-4 justify-center items-start'>
                     <div className='font-extrabold text-[#19aaca] text-2xl'>Travelo</div>

@@ -18,8 +18,8 @@ function Explore() {
     const filteredList = placesList.filter((item) => item.type === selectCategory) || [];
     console.log(filteredList)
     return (
-        <div className='max-w-[1200px] m-auto my-20'>
-            <div className='grid grid-cols-2'>
+        <div className='container px-4 m-auto my-20'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div>
                     <h1 className='text-5xl font-semibold'>Explore more</h1>
                     <p className='text-xl text-black/60 mt-4'>Let's go on an adventure</p>
@@ -32,11 +32,11 @@ function Explore() {
                 </div>
             </div>
 
-            <div className='flex justify-between items-start my-8'>
+            <div className='flex justify-between items-start my-8 overflow-hidden gap-4'>
                 <div className='flex gap-4'>
                     {
                         category.map((item, index) => (
-                            <div key={index} className={`py-2 px-4 rounded-lg ${category[index] === selectCategory ? "bg-[#343434] text-white" : "bg-[#f4f4f4] text-black/60"} cursor-pointer`}
+                            <div key={index} className={`py-2 px-4 rounded-lg ${category[index] === selectCategory ? "bg-[#343434] text-white" : "bg-[#f4f4f4] text-black/60"} cursor-pointer text-nowrap`}
                                 onClick={() => setSelectCategory(category[index])}
                             >{item}</div>
                         ))
@@ -48,7 +48,7 @@ function Explore() {
                 </button>
             </div>
 
-            <div className='grid grid-cols-3 gap-12'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
                 {
                     selectCategory === "All" ?
                         (

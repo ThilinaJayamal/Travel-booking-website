@@ -7,13 +7,13 @@ import Button from '../components/Button'
 
 function Memories() {
     return (
-        <div className='max-w-[1200px] m-auto mt-20 mb-10'>
+        <div className='container px-4 m-auto mt-20 mb-10'>
             <div>
                 <h3 className='text-4xl font-semibold text-center'>Travel to make sweet memories</h3>
                 <p className='text-center text-xl mt-4 text-black/60'>Find trips that fit a flexible lifestyle</p>
             </div>
 
-            <div className='grid grid-cols-2 gap-8 mt-14'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mt-14'>
                 <div className='flex flex-col gap-8 items-start justify-start'>
                     {
                         memories.map((item, index) => (

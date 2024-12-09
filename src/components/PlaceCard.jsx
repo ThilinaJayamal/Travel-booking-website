@@ -3,11 +3,11 @@ import { Icons} from '../assets/data'
 
 function PlaceCard({title,img,discount,location}) {
   return (
-    <div className='relative w-64'>
+    <div className='relative w-full'>
       <div className='absolute top-4 right-4 bg-white py-1 px-2 rounded-lg'>
         {discount+" OFF"}
       </div>
-      <img src={img} alt="" className='size-64 object-cover rounded-3xl' />
+      <img src={img} alt="" className='w-full object-cover rounded-3xl' />
       <div className='py-4'>
         <p>{title}</p>
         <div className='flex gap-2 items-center mb-2'>

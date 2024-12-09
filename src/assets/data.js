@@ -24,7 +24,8 @@ import flight from './flight.png';
 import email from './Email.png'
 import fb from './Facebook.png';
 import inta from './Instagram_1.png';
-import yt from './YouTube.png'
+import yt from './YouTube.png';
+import menu from './Menu.png';
 
 export const Icons = {
     user: user,
@@ -37,7 +38,8 @@ export const Icons = {
     email:email,
     fb:fb,
     insta:inta,
-    yt:yt
+    yt:yt,
+    menu:menu
 
 }
 

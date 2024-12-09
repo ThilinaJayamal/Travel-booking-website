@@ -4,7 +4,7 @@ import Button from '../components/Button'
 
 function Hero() {
     return (
-        <div className='container px-4  m-auto min-h-[calc(100vh-100px)]'>
+        <div className='container px-4  m-auto min-h-[calc(100vh-100px)] mt-[100px]'>
             
             <div className="w-full pt-12 min-h-[calc(100vh-100px-150px)] bg-[url('/background.jpg')] bg-cover rounded-3xl bg-no-repeat pb-[120px]">
                 <h1 className='font-medium text-6xl text-center leading-[75px] text-white'>

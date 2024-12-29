@@ -15,7 +15,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className='fixed top-0 left-0 w-full bg-white z-50'>
+        <div className='fixed top-0 left-0 w-full bg-white/40 z-50 backdrop-blur-md'>
             <div className='container px-4 h-[100px] m-auto flex justify-between items-center'>
                 <div className='font-extrabold text-[#19aaca] text-2xl'>Travelo</div>
                 <ul className='list-none hidden lg:block'>

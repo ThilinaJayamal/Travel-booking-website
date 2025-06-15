@@ -1,4 +1,4 @@
-# HorizonStay - Travel Booking Website
+# HorizonStay - Travel Booking Website.
 
 HorizonStay is a comprehensive travel booking website that allows users to search for and book hotels, flights, and rental cars. The platform aims to provide a seamless and intuitive experience for planning and organizing travel itineraries.
 
